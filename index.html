@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D $AMP Tweet</title>
+<style>
+  body { display:flex; justify-content:center; align-items:center; height:100vh; background:#0d0d0d; }
+  .tweet { width:300px; height:150px; background:#1da1f2; border-radius:20px;
+           display:flex; align-items:center; justify-content:center; color:white; font-weight:bold;
+           transform-style:preserve-3d; animation:rotate 8s linear infinite; cursor:pointer;
+           box-shadow:0 10px 20px rgba(0,0,0,0.5); text-align:center; }
+  @keyframes rotate { 0%{transform:rotateY(0deg);} 100%{transform:rotateY(360deg);} }
+  .tweet:hover { animation-play-state:paused; }
+</style>
+</head>
+<body>
+<a href="https://twitter.com/intent/tweet?text=Stacking%20$AMP%20and%20growing%20bigger!%20%23AMP%20%40ampdotxyz" target="_blank" class="tweet">
+  🚀 Stack $AMP & grow bigger! 💎 #AMP @ampdotxyz
+</a>
+</body>
+</html>
